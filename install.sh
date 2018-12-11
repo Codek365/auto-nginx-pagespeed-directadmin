@@ -1,3 +1,14 @@
+cd /usr/local/directadmin/custombuild
+./build set php1_mode php-fpm
+./build set php2_mode php-fpm
+./build set php1_release 7.0
+./build set php2_release 5.6
+./build set webserver nginx_apache
+./build update
+
+./build all d
+./build rewrite_confs
+
 
 [check the release notes for the latest version]
 NPS_VERSION=1.13.35.1-beta
