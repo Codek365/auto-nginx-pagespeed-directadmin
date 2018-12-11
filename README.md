@@ -1,0 +1,1 @@
+# auto-nginx-pagespeed-directadmin
